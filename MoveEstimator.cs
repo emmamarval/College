@@ -16,7 +16,7 @@ class Program {
 
      if (double.TryParse(hoursGiven, out hoursGivenint) && int.TryParse(milesGiven, out milesGivenint))
     {
-    Console.WriteLine ("Your total is {0}", basePay+(milesGivenint*perMile)+(hoursGivenint*hourly));
+    Console.WriteLine ("Your total is $ {0}", basePay+(milesGivenint*perMile)+(hoursGivenint*hourly));
     }
     else
       {
@@ -36,7 +36,7 @@ class Program {
 
      if (double.TryParse(hoursGiven, out hoursGivenintTwo) && int.TryParse(milesGiven, out milesGivenintTwo))
     {
-    Console.WriteLine ("Your total is {0}", basePay+(milesGivenintTwo*perMile)+(hoursGivenintTwo*hourly));
+    Console.WriteLine ("Your total is $ {0}", basePay+(milesGivenintTwo*perMile)+(hoursGivenintTwo*hourly));
     }
     else
       {
@@ -56,7 +56,7 @@ class Program {
 
      if (double.TryParse(hoursGiven, out hoursGivenintThree) && int.TryParse(milesGiven, out milesGivenintThree))
     {
-    Console.WriteLine ("Your total is {0}", basePay+(milesGivenintThree*perMile)+(hoursGivenintThree*hourly));
+    Console.WriteLine ("Your total is $ {0}", basePay+(milesGivenintThree*perMile)+(hoursGivenintThree*hourly));
     }
     else
       {
@@ -76,7 +76,7 @@ class Program {
 
      if (double.TryParse(hoursGiven, out hoursGivenintFour) && int.TryParse(milesGiven, out milesGivenintFour))
     {
-    Console.WriteLine ("Your total is {0}", basePay+(milesGivenintFour*perMile)+(hoursGivenintFour*hourly));
+    Console.WriteLine ("Your total is $ {0}", basePay+(milesGivenintFour*perMile)+(hoursGivenintFour*hourly));
     }
     else
       {
